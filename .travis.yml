@@ -11,3 +11,4 @@ jobs:
       script: ./compile.sh
     - stage: deploy
       script: ./deploy.sh
+

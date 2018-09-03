@@ -8,7 +8,9 @@ env:
 jobs:
   include:
     - stage: compile
-      script: echo $FOO
+      script: echo compile $FOO
+    - stage: test
+      script: echo test $FOO  
     - stage: deploy
-      script: echo $FOO
+      script: echo deploy $FOO
 
